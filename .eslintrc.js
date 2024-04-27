@@ -1,7 +1,7 @@
 module.exports = {
     root: true,
     extends: ['universe/native'],
-    ignorePatterns: ['.config/*', ".eslintrc.js"],
+    ignorePatterns: ['.config/*', '.eslintrc.js'],
     rules: {
         'react-hooks/exhaustive-deps': 'error',
         '@typescript-eslint/no-unused-vars': 'error',
