@@ -2,15 +2,23 @@
     "expo": {
         "name": "carelist",
         "slug": "carelist",
+        "icon": "./src/assets/images/store-assets/icon.png",
+        "orientation": "portrait",
+        "splash": {
+            "image": "./src/assets/images/store-assets/splash.png",
+            "resizeMode": "contain",
+            "backgroundColor": "#FAF6F4"
+        },
         "ios": {
             "supportsTablet": true,
-            "bundleIdentifier": "com.example.with-new-arch"
+            "bundleIdentifier": "com.camposz.carelist"
         },
         "android": {
-            "package": "com.example.withnewarch"
-        },
-        "web": {
-            "favicon": "./assets/favicon.png"
+            "package": "com.camposz.carelist",
+            "adaptivelcon": {
+                "foregroundImage": "./assets/images/adaptive-icon.png",
+                "backgroundColor": "#FAF6F4"
+            }
         },
         "plugins": [
             [
