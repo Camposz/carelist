@@ -2,10 +2,10 @@
     "expo": {
         "name": "carelist",
         "slug": "carelist",
-        "icon": "./src/assets/images/store-assets/icon.png",
+        "icon": "assets/images/store-assets/icon.png",
         "orientation": "portrait",
         "splash": {
-            "image": "./src/assets/images/store-assets/splash.png",
+            "image": "assets/images/store-assets/splash.png",
             "resizeMode": "contain",
             "backgroundColor": "#FAF6F4"
         },
